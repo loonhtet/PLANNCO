@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap");
+
+:root {
+  /* hue-saturation-lightness-alpha  */
+  --primary-color: hsl(330, 87%, 17%);
+  --secondary-color: hsla(203, 100%, 13%, 1);
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+
+  overflow-x: hidden;
+}
+
+/* Start Header  */
+
+header {
+  height: 100vh;
+  background: linear-gradient(20deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
+    url("../assets/img/banner/banner2.jpg");
+  margin: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  position: relative;
+}
+
+/* Start nav bar  */
+.navbar {
+  background: linear-gradient(rgba(0, 0, 0, 0), var(--secondary-color));
+  padding: 20px 30px;
+
+  transition: all 0.5s;
+}
+
+.menuitems {
+  color: #eeee;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.menuitems:hover {
+  color: #1aaee8;
+}
+
+.navmenus {
+  /* height: 50px; */
+  /* transform: translateY(-20px); */
+  padding: 5px 10px;
+}
+
+.lines1,
+.lines2,
+.lines3 {
+  width: 25px;
+  height: 3px;
+  margin: 6px;
+
+  transform: rotate(0deg);
+  transform-origin: 0;
+}
+
+.crossxs .lines1 {
+  transform: rotate(-45deg);
+  transform-origin: right;
+}
+
+.crossxs .lines2 {
+  opacity: 0;
+}
+
+.crossxs .lines3 {
+  transform: rotate(45deg);
+  transform-origin: right;
+}
+
+/* End nav bar  */
+
+/* Start Banner  */
+.banners {
+  color: var(--bs-gray-400);
+  width: 45%;
+
+  top: 50%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+.bannerheaders {
+  animation: bannani 2s;
+}
+
+.bannerparagraphs {
+  animation: bannani 2s;
+  animation-delay: 1s;
+
+  animation-fill-mode: backwards;
+}
+
+@keyframes bannani {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.staffgirls {
+  transform: translateX(100px);
+}
+
+/* End Banner  */
+
+/* End Header  */
+
+/* Start Properties */
+
+.titles::before {
+  border-left: 3px solid var(--primary-color);
+  border-bottom: 3px solid var(--primary-color);
+
+  left: 0;
+  bottom: 0;
+}
+
+.titles::before {
+  border-right: 3px solid var(--primary-color);
+  border-top: 3px solid var(--primary-color);
+
+  right: 0;
+  top: 0;
+}
+
+.propertylists {
+  cursor: pointer;
+  color: var(--bs-gray-500);
+}
+
+.activeitems {
+  color: var(--primary-color);
+}
+/* End Properties */
+
+/* Start Adv Section */
+.missions {
+  background-color: var(--secondary-color);
+}
+
+.fromlefts {
+  animation: fromlefts 3s;
+}
+
+.fromrights {
+  animation: fromrights 3s;
+}
+
+@keyframes fromlefts {
+  0% {
+    opacity: 0;
+    transform: translateX(-150px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+@keyframes fromrights {
+  from {
+    opacity: 0;
+    transform: translateX(150px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+/* End Adv Section */
