@@ -42,7 +42,7 @@
         <a href="index.html" class="navbar-brand text-light mx-3">
           <img src="./assets/img/fav/favicon.png" width="70px" alt="favicon" />
           <span class="text-uppercase fw-bold h2 mx-2">Plannco</span>
-          <span class="h3">Home Decoration</span>
+          <span class="h3 text-uppercase">Home Decoration</span>
         </a>
 
         <button
@@ -302,12 +302,14 @@
                 alt="img7"
                 width="200px"
                 height="120px"
-              />
+              >
             </a>
+            
           </div>
         </div>
       </div>
     </section>
+
     <!-- End Property section -->
 
     <!-- Start Adv Section  -->
@@ -433,11 +435,11 @@
 
         <div class="row">
           <div class="col-md-6 mx-auto">
-            <div id="customercarousels" class="carousel" data-bs-ride="carousel">
+            <div id="customercarousels" class="carousel slide" data-bs-ride="carousel">
               <ol class="carousel-indicators">
-                <li data-bs-target="customercarousels"></li>
-                <li data-bs-target="customercarousels"></li>
-                <li data-bs-target="customercarousels"></li>
+                <li data-bs-target="#customercarousels" class="active" data-bs-slide-to="0"></li>
+                <li data-bs-target="#customercarousels"  data-bs-slide-to="1"></li>
+                <li data-bs-target="#customercarousels"  data-bs-slide-to="2"></li>
               </ol>
               <div class="carousel-inner">
                 <!-- Start User1  -->
@@ -447,9 +449,9 @@
                   <blockquote class="text-light">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto voluptas officia eum. Minima eos id labore repudiandae dolorum laborum tenetur.</p>
                   </blockquote>
-                  <h5 class="text-light text-uppercase fw-bold">Ms.July</h5>
+                  <h5 class="text-light text-uppercase fw-bold mb-3">Ms.July</h5>
   
-                  <ul class="list-inline">
+                  <ul class="list-inline mb-5">
                     <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
                     <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
                     <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
@@ -458,17 +460,17 @@
                   </ul>
                 </div>
                 <!-- End User1  -->
-                <!-- Start User2  -->
 
+                <!-- Start User2  -->
                 <div class="carousel-item text-center">
                   <img src="./assets/img/users/user2.jpg" class="rounded-circle" width="150px" alt="user2">
   
                   <blockquote class="text-light">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto voluptas officia eum. Minima eos id labore repudiandae dolorum laborum tenetur.</p>
                   </blockquote>
-                  <h5 class="text-light text-uppercase fw-bold">Ms.Antom</h5>
+                  <h5 class="text-light text-uppercase fw-bold mb-3">Ms.Antom</h5>
   
-                  <ul class="list-inline">
+                  <ul class="list-inline mb-5">
                     <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
                     <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
                     <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
@@ -477,17 +479,17 @@
                   </ul>
                 </div>
                 <!-- End User2  -->
-                <!-- Start User3  -->
 
+                <!-- Start User3  -->
                 <div class="carousel-item text-center">
                   <img src="./assets/img/users/user3.jpg" class="rounded-circle" width="150px" alt="user3">
   
                   <blockquote class="text-light">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto voluptas officia eum. Minima eos id labore repudiandae dolorum laborum tenetur.</p>
                   </blockquote>
-                  <h5 class="text-light text-uppercase fw-bold">Ms.Yoon</h5>
+                  <h5 class="text-light text-uppercase fw-bold mb-3">Ms.Yoon</h5>
   
-                  <ul class="list-inline">
+                  <ul class="list-inline mb-5">
                     <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
                     <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
                     <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
@@ -501,9 +503,203 @@
             </div>
           </div>
         </div>
+
       </div>
     </section>
     <!-- End Customers Section  -->
+
+    <!-- Start Request Quotation Section  -->
+    <section>
+        <div class="container">
+          <div class="quotes">
+            <div class="infos">
+              <div class="me-5">
+                <img src="./assets/img/icon/phoneicon.png" class="phoneicons" alt="phoneicon">
+              </div>
+
+              <div class="text-white">
+                <h2 class="fw-bold text-uppercase">Request a free quote</h2>
+                <p class="lead">Get answers and advice from people you want it free</p>
+              </div>
+            </div>
+
+            <div>
+              <a href="tel:09951180654" class="btn btn-calls">Call Now <i class="fas fa-phone"></i></a>
+            </div>
+          </div>
+        </div>
+    </section>
+    <!-- End Request Quotation Section  -->
+
+    <!-- Start Furniture Services Section  -->
+    <section id="funiture" class="bg-light text-center py-3">
+      <div class="container">
+        <!-- Start title  -->
+        <div class="row">
+          <div class="col">
+            <h3 class="titles">Furniture Services</h3>
+            <p class="lead">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, officiis?
+            </p>
+          </div>
+        </div>
+        <!-- End title  -->
+
+        <div class="row furicons">
+          <div class="col-md-4">
+            <img src="./assets/img/icon/services1.png" alt="services1">
+            <h4></h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque voluptates accusantium eum ipsam eaque corporis!</p>
+          </div>
+          <div class="col-md-4">
+            <img src="./assets/img/icon/services2.png" alt="services2">
+            <h4></h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque voluptates accusantium eum ipsam eaque corporis!</p>
+          </div>
+          <div class="col-md-4">
+            <img src="./assets/img/icon/services3.png" alt="services3">
+            <h4></h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque voluptates accusantium eum ipsam eaque corporis!</p>
+          </div>
+          <div class="col-md-4">
+            <img src="./assets/img/icon/services4.png" alt="services4">
+            <h4></h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque voluptates accusantium eum ipsam eaque corporis!</p>
+          </div>
+          <div class="col-md-4">
+            <img src="./assets/img/icon/services5.png" alt="services5">
+            <h4></h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque voluptates accusantium eum ipsam eaque corporis!</p>
+          </div>
+          <div class="col-md-4">
+            <img src="./assets/img/icon/services6.png" alt="services6">
+            <h4></h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque voluptates accusantium eum ipsam eaque corporis!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Furniture Services Section  -->
+
+    <!-- Start Contact Section  -->
+    <section id="contact" class="p-5 contacts">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-5">
+            <h5 class="display-4 text-light mb-3">Get New Letter</h5>
+
+            <form action="">
+              <div class="form-group py-4">
+                <input type="text" name="name" id="name" class="form-control py-3 inputs" placeholder="Enter Your Name" autocomplete="off">
+                <label for="name" class="labels">Name</label>
+              </div>
+              <div class="form-group py-4">
+                <input type="email" name="email" id="email" class="form-control py-3 inputs" placeholder="Enter Your Email" autocomplete="off">
+                <label for="email" class="labels">Email</label>
+              </div>
+
+              <div class="my-4">
+                <div class="form-check form-switch">
+                  <input type="checkbox" name="accept"
+                  id="accept" class="form-check-input">
+                  <label for="accept" class="text-white">I agree to get push notify</label>
+                </div>
+              </div>
+
+              <div class="d-grid">
+                <button type="button" class="btn text-uppercase fw-bold rounded-0 submit-btns">Subscribe</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Contact Section  -->
+
+    <!-- Start Footer Section  -->
+    <footer class="bg-dark px-5">
+      <div class="cotnainer-fluid">
+        <div class="row text-light py-4">
+          <div class="col-md-3 col-sm-6">
+            <h5 class="mb-3">
+              <img src="./assets/img/fav/favicon.png" alt="" width="70px">
+              About PLANNCO
+            </h5>
+
+            <p class="small">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro ullam minima at eos sed tenetur illum temporibus accusamus enim recusandae!
+            </p>
+          </div>
+
+          <div class="col-md-3 col-sm-6">
+            <h5 class="mb-3">Visit Us</h5>
+            <ul class="list-unstyled">
+              <li><a href="index.html" class="footerlinks">Home</a></li>
+              <li><a href="#about" class="footerlinks">About Us</a></li>
+              <li><a href="#properties" class="footerlinks">Properties</a></li>
+              <li><a href="#services" class="footerlinks">Services</a></li>
+              <li><a href="#customer" class="footerlinks">Customers</a></li>
+              <li><a href="#furniture" class="footerlinks">Furniture</a></li>
+              <li><a href="#contact" class="footerlinks">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="col-md-3 col-sm-6">
+            <h5 class="mb-3">Need Help?</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a href="#" class="footerlinks text-uppercase"
+                  >Customer Service</a
+                >
+              </li>
+              <li>
+                <a href="#" class="footerlinks text-uppercase">Online Chat</a>
+              </li>
+              <li>
+                <a href="#" class="footerlinks text-uppercase">Support</a>
+              </li>
+              <li>
+                <a href="#" class="footerlinks text-uppercase"
+                  >info@planco.com</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-3 col-sm-6">
+            <h5 class="mb-3">Contact Us</h5>
+            <ul class="list-unstyled small">
+              <li>
+                l-9/19(A),60 Street, Between Theik Pan Street And, Aung San St,
+                Mandalay.
+              </li>
+              <li>Phone: +95 9 4220 42225 / +95 9 4220 42242</li>
+            </ul>
+          </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-white border-top pt-4 d-flex justify-content-between">
+        <p>
+          &copy; <span id="getyear"></span> Copyright, Inc,All rights
+          reserved.
+        </p>
+        <ul class="list-unstyled d-flex">
+          <li class="ms-3">
+            <a href="#" class="nav-link"><i class="fab fa-twitter"></i></a>
+          </li>
+          <li class="ms-3">
+            <a href="#" class="nav-link"><i class="fab fa-instagram"></i></a>
+          </li>
+          <li class="ms-3">
+            <a href="#" class="nav-link"><i class="fab fa-facebook"></i></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <!-- End Footer Section  -->
+
   </body>
 
     <!-- bootstrap css1 js1  -->
